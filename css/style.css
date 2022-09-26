@@ -81,7 +81,7 @@ LAYOUT
     /* mobile viewport bug fix */
     min-height: -webkit-fill-available;
 
-    background-color: yellow;
+    background-color: red;
     overflow: hidden;
 }
 
@@ -573,7 +573,8 @@ MEDIA QUERY
 
     nav {
         width: 60px;
-        height: calc(100vh - 180px);
+/*         height: calc(100dvh - 95px); */
+        height: 100dvh;
     }
 
     .main-content {
@@ -586,6 +587,7 @@ MEDIA QUERY
     }
 
     .profile {
+        bottom: 85px;
         padding-left: 16px;
     }
 
@@ -634,7 +636,7 @@ MEDIA QUERY
     .inner-content {
         padding-top: 20px;
         padding-bottom: 20px;
-        height: calc(100vh - 180px);
+        height: calc(100dvh - 180px);
     }
 }
 
